@@ -1,18 +1,35 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  /* display: flex;
-  flex-direction: column; */
   padding: 70px;
   background-color: #081d3c;
+  position: relative;
+
+  .img {
+    top: -10px;
+    left: -9px;
+
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    border-radius: 0;
+  }
 
   .inner-div {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
   }
+  .header-div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ; */
+  }
+
   h1 {
     font-size: 58px;
     color: #ffbb12;
@@ -23,14 +40,16 @@ export const OVERALL = styled.div`
     line-height: 58px;
   }
   hr {
-    border-top: 5px solid #ffbb12;
-    width: 17%;
+    border-top: 5px solid #fff;
+    width: 100%;
     opacity: 1;
+    margin-top: 2rem;
     margin-bottom: 4rem;
+    background-color: #fff;
   }
   p {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Raleway";
     line-height: 30px;
     margin-bottom: 20px;
@@ -42,7 +61,7 @@ export const OVERALL = styled.div`
   }
   .left-side {
     width: 50%;
-    padding: 20px;
+    padding: 10px;
   }
   .right-side {
     padding: 20px;

@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../HeroSection/HeroSection";
 import Session1 from "../HeroSection/Learn_Earn/Session1/Session1";
+import Session10 from "../HeroSection/Learn_Earn/Session10/Session10";
 import Session2 from "../HeroSection/Learn_Earn/Session2/Session2";
 import Session3 from "../HeroSection/Learn_Earn/Session3/Session3";
 import Session4 from "../HeroSection/Learn_Earn/Session4/Session4";
@@ -15,12 +16,13 @@ function Learn_Earn() {
       <HeroSection />
       <Session1 />
       <Session2 />
-      <Session3 />
-      <Session4 />
-      <Session5 />
-      <Session6 />
-      <Session7 />
-      <Session8 />
+      {/* <Session3 /> */}
+      {/* <Session4 /> */}
+      {/* <Session5 /> */}
+      {/* <Session6 /> */}
+      {/* <Session7 /> */}
+      {/* <Session8 /> */}
+      {/* <Session10 /> */}
     </div>
   );
 }

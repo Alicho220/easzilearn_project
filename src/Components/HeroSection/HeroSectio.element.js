@@ -2,27 +2,34 @@ import styled from "styled-components";
 
 export const HEROWRAP = styled.div`
   background-color: #e8f7f7;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
 
-  .logo-header {
+  width: 100%;
+  height: 100vh;
+
+  .inner-div {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+  }
+
+  /* .logo-header {
     padding: 30px 0;
     margin-bottom: 3rem;
 
     img {
       width: 130px;
-    }
-  }
+    } */
+
   .left-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* align-item:center ; */
     width: 50%;
     text-align: center;
-    padding: 100px;
-    margin-top: 10rem;
+    /* padding: 200px; */
+    /* margin-top: 10rem; */
     /* margin-top: 50px; */
 
     h2 {
@@ -37,43 +44,48 @@ export const HEROWRAP = styled.div`
       color: #008e51;
       font-size: 52px;
       font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
-      line-height: 52px;
+      line-height: 45px;
       font-weight: bolder;
-
       margin-bottom: 30px;
     }
     hr {
       border: 3px solid #ffbb12;
       opacity: 1;
       margin-bottom: 1rem;
+      margin-top: 2rem;
       background: #ffbb12;
-      /* width: 400px; */
+      width: 100%;
+      text-align: center;
     }
   }
 
   .right-side {
-    /* padding: 100px; */
     width: 50%;
     img {
-      margin-top: 10rem;
-      width: 100%;
+      margin-top: 5.4rem;
+      width: 89%;
+      padding: 5px;
     }
   }
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     background-color: red;
 
     .left-side {
-      /* display: flex; */
       width: 100%;
+      h1 {
+        font-size: 10px;
+      }
     }
 
     .right-side {
       width: 100%;
+      /* background-color: red; */
     }
   }
 `;
-export const INNERWRAP = styled.div`
-  display: flex;
-`;
+// export const INNERWRAP = styled.div`
+//   display: flex;
+// `;

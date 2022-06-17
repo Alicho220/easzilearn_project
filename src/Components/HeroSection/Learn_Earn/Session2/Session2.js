@@ -4,19 +4,17 @@ import earn from "../../../../assets/You-Can-Earn-For-Life-Multiple-Daily-And-ye
 import one from "../../../../assets/Easzi-number-1-green.png";
 import two from "../../../../assets/Easzi-number-2-green.png";
 import three from "../../../../assets/Easzi-number-3-green.png";
+import TestImg from "../../../../assets/download/download.svg";
 
 function Session2() {
   return (
     <OVERALL>
+      {/* <img className="img" src={TestImg} /> */}
       <div className="inner-div">
-        <h1>
-          Our Technology
-          <br /> And How
-          <br /> To Earn Money Through
-          <br /> Easzi Even <br />
-          When Sleeping
-        </h1>
-        <hr />
+        <div className="header-div">
+          <h1>About Easzi</h1>
+          <hr />
+        </div>
         <div className="row-div">
           <div className="left-side">
             <p>
@@ -45,21 +43,20 @@ function Session2() {
               <span>YOU MUST ALSO BE ABLE TO</span> earn money{" "}
               <span>EVEN WHEN SLEEPING.</span>
             </p>
-            <p>The technology we have created can help you achieve that.</p>
-            <p>You can earn OVER 1,000 Streams of Income through Easzi.</p>
+            <p>
+              The amazing technology we have created can help you achieve that.
+              You can earn <span>OVER 1,000 STREAMS</span> of Income through
+              Easzi..
+            </p>
+
             <div className="numbered-session">
               <div>
                 <img src={one} />
               </div>
               <div>
                 <p>
-                  When <span>A SELLER</span> sells a <span>PHYSICAL </span>
-                  product, a <span>DIGITAL</span>product or a Service on Easzi,
-                  <span>YOU EARN</span> money.
-                </p>
-                <p>
-                  You <span>DON’T HAVE TO KNOW</span> the seller. before YOU
-                  EARN money.
+                  When A SELLER sells a PHYSICAL product, a DIGITAL product or a
+                  Service on Easzi, YOU EARN money.
                 </p>
               </div>
             </div>
@@ -69,13 +66,9 @@ function Session2() {
               </div>
               <div>
                 <p>
-                  When <span>A BUYER </span>buys a <span>PHYSICAL </span>
-                  product, a <span>DIGITAL</span> product or a Service on easzi,
-                  <span>YOU EARN</span> money.
-                </p>
-                <p>
-                  You <span>DON’T HAVE TO KNOW </span>the buyer before YOU EARN
-                  money.
+                  When <span>A BUYER</span> buys a <span>PHYSICAL </span>
+                  product, a <p>DIGITAL</p> product or a Service on easzi, YOU
+                  EARN money.
                 </p>
               </div>
             </div>
@@ -86,14 +79,13 @@ function Session2() {
               <div>
                 <p>
                   When <span>A PERSON</span> pays for Easzi Learn and Earn App,
-                  <span>YOU EARN </span>money.
-                </p>
-                <p>
-                  You <span>DON’T HAVE TO KNOW</span> the person, before YOU
-                  EARN money.
+                  <span>YOU EARN</span> money.
                 </p>
               </div>
             </div>
+            <p>
+              See <span>HOW IT WORKS</span>below.
+            </p>
           </div>
           <div className="right-side">
             <img src={earn} />
