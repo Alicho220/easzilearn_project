@@ -19,34 +19,6 @@ function Session5() {
         <hr />
         <div className="row-div">
           <div className="left-side">
-            {/* <p>
-              Easzi <span>IS AN ALL-IN-ONE</span> technology <span>WHERE</span>{" "}
-              you can learn and earn, sell and buy{" "}
-              <span>PRIVATE AND PUBLIC</span> physical products, digital
-              products, and services, <span>FIND</span> logistics/delivery
-              agents, <span>ADVERTISE</span> and grow your business,{" "}
-              <span>PERFORM</span>
-              banking/financial transactions, <span>AND PROTECT </span>your life
-              in cases of health emergencies.
-            </p>
-            <p>
-              Easzi <span>CAN ALSO MAKE YOU</span> ₦200 Million,{" "}
-              <span>IN THE SHORTEST</span>
-              time possible.
-            </p>
-            <p>
-              But <span>FOR YOU</span> to make ₦200 Million,{" "}
-              <span>YOU NEED MULTIPLE</span>
-              streams of income.
-            </p>
-            <p>
-              Also, <span>HOW YOU MAKE MONEY</span> cannot be based{" "}
-              <span>ON ONLY</span> your efforts.{" "}
-              <span>YOU MUST ALSO BE ABLE TO</span> earn money{" "}
-              <span>EVEN WHEN SLEEPING.</span>
-            </p>
-            <p>The technology we have created can help you achieve that.</p>
-            <p>You can earn OVER 1,000 Streams of Income through Easzi.</p> */}
             <div className="numbered-session">
               <div>
                 <img src={one} />
@@ -108,7 +80,6 @@ function Session5() {
       </div>
     </OVERALL>
   );
-  //  <OVERALL>
 }
 
 export default Session5;

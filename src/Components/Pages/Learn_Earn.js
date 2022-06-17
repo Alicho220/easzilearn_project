@@ -6,6 +6,8 @@ import Session3 from "../HeroSection/Learn_Earn/Session3/Session3";
 import Session4 from "../HeroSection/Learn_Earn/Session4/Session4";
 import Session5 from "../HeroSection/Learn_Earn/Session5/Session5";
 import Session6 from "../HeroSection/Learn_Earn/Session6/Session6";
+import Session7 from "../HeroSection/Learn_Earn/Session7/Session7";
+import Session8 from "../HeroSection/Learn_Earn/Session8/Session8";
 
 function Learn_Earn() {
   return (
@@ -17,6 +19,8 @@ function Learn_Earn() {
       <Session4 />
       <Session5 />
       <Session6 />
+      <Session7 />
+      <Session8 />
     </div>
   );
 }

@@ -25,23 +25,23 @@ export const OVERALL = styled.div`
     font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
     /* text-align: center; */
     font-weight: 800;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   hr {
     border: 3px solid #081d3c;
     opacity: 1;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     background: #081d3c;
     width: 20%;
   }
   .text-area {
-    background-color: red;
+    width: 90%; /* background-color: red; */
     p {
       color: #666666;
       text-align: left;
       font-size: 18px;
       line-height: 30px;
-      padding:100px;
+      padding: 20px;
     }
   }
 `;
