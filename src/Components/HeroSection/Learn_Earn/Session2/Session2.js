@@ -55,8 +55,9 @@ function Session2() {
               </div>
               <div>
                 <p>
-                  When A SELLER sells a PHYSICAL product, a DIGITAL product or a
-                  Service on Easzi, YOU EARN money.
+                  When <span>A SELLER </span>sells a <span>PHYSICAL</span>{" "}
+                  product, a <span>DIGITAL</span> product or a Service on Easzi,
+                  <span>YOU EARN money.</span>
                 </p>
               </div>
             </div>
@@ -67,8 +68,8 @@ function Session2() {
               <div>
                 <p>
                   When <span>A BUYER</span> buys a <span>PHYSICAL </span>
-                  product, a <p>DIGITAL</p> product or a Service on easzi, YOU
-                  EARN money.
+                  product, a <span>DIGITAL</span> product or a Service on easzi,{" "}
+                  <span>YOU EARN money.</span>
                 </p>
               </div>
             </div>
@@ -79,7 +80,7 @@ function Session2() {
               <div>
                 <p>
                   When <span>A PERSON</span> pays for Easzi Learn and Earn App,
-                  <span>YOU EARN</span> money.
+                  <span> YOU EARN</span> money.
                 </p>
               </div>
             </div>
