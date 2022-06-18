@@ -85,7 +85,7 @@ function Session2() {
               </div>
             </div>
             <p>
-              See <span>HOW IT WORKS</span>below.
+              See <span>HOW IT WORKS </span>below.
             </p>
           </div>
           <div className="right-side">

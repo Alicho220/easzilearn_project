@@ -9,14 +9,17 @@ function Session5() {
   return (
     <OVERALL>
       <div className="inner-div">
-        <h1>
-          More Ways Yo
-          <br />u Can Earn
-          <br /> Money On Easzi <br />
-          Without <br />
-          Paying Money
-        </h1>
-        <hr />
+        <div className="header-div">
+          <h1>
+            More Ways Yo
+            <br />u Can Earn
+            <br /> Money On Easzi <br />
+            Without <br />
+            Paying Money
+          </h1>
+          <hr />
+        </div>
+
         <div className="row-div">
           <div className="left-side">
             <div className="numbered-session">
@@ -26,12 +29,15 @@ function Session5() {
               <div>
                 <h2>Arbitrage Income:</h2>
                 <p>
-                  On easzi, you can find WHOLESALE and RETAIL physical products.
+                  On easzi, you can find <span>WHOLESALE</span> and{" "}
+                  <span>RETAIL</span> physical products.
                 </p>
                 <p>
-                  WITHOUT FIRST buying the product, YOU CAN CHOOSE any physical
-                  product you like on easzi, ADD YOUR PROFIT to it, and sell it
-                  as your own product to your family, friends or your customers.
+                  <span>WITHOUT FIRST</span> buying the product,{" "}
+                  <span>YOU CAN CHOOSE </span>
+                  any physical product you like on easzi,
+                  <span> ADD YOUR PROFIT</span> to it, and sell it as your own
+                  product to your family, friends or your customers.
                 </p>
               </div>
             </div>
@@ -42,8 +48,9 @@ function Session5() {
               <div>
                 <h2>Affiliate Income:</h2>
                 <p>
-                  On easzi, you can find PHYSICAL products, DIGITAL products,
-                  and SERVICES with Affiliate Commissions.
+                  On easzi, you can find <span>PHYSICAL</span> products,{" "}
+                  <span>DIGITAL </span>products, and <span>SERVICES</span> with
+                  Affiliate Commissions.
                 </p>
                 <p>
                   On a product or service you will like to advertise, you can
@@ -60,14 +67,17 @@ function Session5() {
               <div>
                 <h2>Store Affiliate Income:</h2>
                 <p>
-                  This is one of the best parts of Easzi. YOU CAN generate an
-                  Affiliate Link FOR A STORE OR BUSINESS on Easzi.
+                  This is one of the best parts of Easzi. <span>YOU CAN </span>
+                  generate an Affiliate Link{" "}
+                  <span>FOR A STORE OR BUSINESS </span>
+                  on Easzi.
                 </p>
                 <p>
-                  Once any person clicks on your link and buys ANY NUMBER OF
-                  PRODUCTS from that store, YOU WILL EARN the affiliate
-                  commission ON ALL THE PRODUCTS the person bought from that
-                  store.
+                  Once any person clicks on your link and buys{" "}
+                  <span>ANY NUMBER OF PRODUCTS</span> from that store,{" "}
+                  <span>YOU WILL EARN </span>
+                  the affiliate commission <span>ON ALL THE PRODUCTS</span> the
+                  person bought from that store.
                 </p>
               </div>
             </div>

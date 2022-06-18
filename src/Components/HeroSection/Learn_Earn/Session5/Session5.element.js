@@ -1,17 +1,24 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  /* display: flex;
-  flex-direction: column; */
-  padding: 70px;
+  padding: 60px;
   background-color: #081d3c;
 
   .inner-div {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+
+    .header-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-top: 100px;
+    }
   }
   h1 {
     font-size: 58px;
@@ -23,9 +30,11 @@ export const OVERALL = styled.div`
     line-height: 58px;
   }
   hr {
-    border-top: 5px solid #ffbb12;
-    width: 17%;
+    border-top: 5px solid #fff;
+    width: 50%;
     opacity: 1;
+    background-color: #fff;
+    margin-top: 2rem;
     margin-bottom: 4rem;
   }
   p {
@@ -37,7 +46,6 @@ export const OVERALL = styled.div`
   }
   h2 {
     color: #ffbb12;
-    font-weight: 600;
   }
 
   span {
@@ -51,6 +59,7 @@ export const OVERALL = styled.div`
   .right-side {
     padding: 20px;
     width: 50%;
+
     img {
       width: 100%;
       border-radius: 150px;
@@ -62,11 +71,59 @@ export const OVERALL = styled.div`
   }
   .numbered-session {
     display: flex;
-    /* padding: 20px; */
-    /* margin: 10px; */
+    /* justify-content: space-evenly; */
+
     img {
+      width: 90%;
+      margin-right: 14px;
+      padding: 2px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    .inner-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-side {
       width: 100%;
-      /* margin-left: 10px; */
+      padding: 0px;
+    }
+    .right-side {
+      width: 100%;
+
+      img {
+        border-radius: 80px;
+      }
+    }
+    .row-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-family: "Raleway";
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #ffbb12;
+    }
+
+    span {
+      color: #ffbb12;
+      font-weight: 600;
+    }
+    .numbered-session {
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 80%;
+        margin-right: 30px;
+        padding: 2px;
+      }
     }
   }
 `;

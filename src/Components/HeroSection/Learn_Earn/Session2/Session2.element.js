@@ -77,8 +77,26 @@ export const OVERALL = styled.div`
   }
   .numbered-session {
     display: flex;
+    margin-bottom: 20px;
     img {
-      width: 80%;
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .row-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-side {
+      width: 100%;
+      padding: 0px;
+    }
+    .right-side {
+      width: 100%;
+      padding: 0;
+      img {
+        border-radius: 100px;
+      }
     }
   }
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import { OVERALL } from "./Session4.element";
-import learn from "../../../../assets/Easzi-Learn-Earn-Course.png";
+import learn from "../../../../assets/Not-Having-Money-Should-Not-Be-An-Excuse-To-Not-Succeed1.jpg";
 import one from "../../../../assets/Easzi-number-1-blue.png";
 import two from "../../../../assets/Easzi-number-2-blue.png";
 import three from "../../../../assets/Easzi-number-3-blue.png";
@@ -9,14 +9,16 @@ function Session4() {
   return (
     <OVERALL>
       <div className="inner-div">
-        <h1>
-          3 Reasons You <br />
-          Should Only <br />
-          Buy Things
-          <br /> Through Easzi
-        </h1>
-        <hr />
-        {/* <div className=""></div> */}
+        <div className="header-div">
+          <h1>
+            3 Reasons You <br />
+            Should Only <br />
+            Buy Things
+            <br /> Through Easzi
+          </h1>
+          <hr />
+        </div>
+
         <div className="inner-row">
           <div className="left-side">
             <img src={learn} />
@@ -28,8 +30,9 @@ function Session4() {
               </div>
               <div>
                 <p>
-                  You WILL EARN MONEY when you BUY a PHYSICAL product, a DIGITAL
-                  product, or A SERVICE through Easzi.
+                  You <span>WILL EARN MONEY</span> when you <span>BUY</span> a
+                  <span>DIGITAL</span> product, a <span>DIGITAL</span> product,
+                  or <span>A SERVICE</span> through Easzi.
                 </p>
               </div>
             </div>
@@ -39,8 +42,9 @@ function Session4() {
               </div>
               <div>
                 <p>
-                  Easzi IS ALSO AN ESCROW App AND PROTECTS buyers and sellers
-                  FROM being scammed.
+                  Easzi <span>IS ALSO AN ESCROW </span>App{" "}
+                  <span>AND PROTECTS</span> buyers and sellers <span>FROM</span>{" "}
+                  being scammed.
                 </p>
               </div>
             </div>
@@ -50,54 +54,63 @@ function Session4() {
               </div>
               <div>
                 <p>
-                  You CANNOT GET SCAMMED if you pay for ANY PHYSICAL PRODUCT or
-                  SERVICE through Easzi Escrow System.
+                  You <span>CANNOT GET SCAMMED</span> if you pay for{" "}
+                  <span>ANY PHYSICAL PRODUCT </span>or <span>SERVICE</span>
+                  through Easzi Escrow System.
                 </p>
               </div>
             </div>
             <p>This is how our Escrow System works.</p>
             <p>
-              Anybody can create a A PRIVATE OR PUBLIC product or A PRIVATE OR
-              PUBLIC service on Easzi. IT IS FREE.
+              Anybody can create a <span>A PRIVATE OR PUBLIC</span> product or{" "}
+              <span>A PRIVATE OR PUBLIC</span> service on Easzi.{" "}
+              <span>IT IS FREE.</span>
             </p>
             <p>
-              If you create A PUBLIC product or service, ANYBODY CAN SEE IT and
-              pay for it, BUT if you create A PRIVATE product or service, ONLY
-              YOU and the buyer or anyone who has the private link can see it
-              and pay for it.
+              If you create <span>A PUBLIC</span> product or service,{" "}
+              <span>ANYBODY CAN SEE IT</span> and pay for it, <span>BUT</span>
+              if you create <span>A PRIVATE</span> product or service,{" "}
+              <span>ONLY YOU</span> and the buyer or anyone who has the private
+              link can see it and pay for it.
             </p>
             <p>Are you a buyer or client?</p>
             <p>
-              Do you want TO DO AN OFFLINE business transaction with a person
-              AND ARE YOU WORRIED of being scammed?
+              Do you want <span>TO DO AN OFFLINE</span> business transaction
+              with a person <span>AND ARE YOU WORRIED</span> of being scammed?
             </p>
             <p>
-              Tell the Seller or Service Provider to CREATE A PRIVATE product or
-              service link on Easzi AND SEND YOU THE PRIVATE link to make
-              payment.
+              Tell the Seller or Service Provider to{" "}
+              <span>CREATE A PRIVATE </span>product or service link on Easzi{" "}
+              <span>AND SEND YOU THE PRIVATE</span> link to make payment.
             </p>
             <p>Are you a Seller or service Provider?</p>
             <p>
-              STOP DOING PAYMENT ON DELIVERY. Create a private product link or a
-              private service link and send the link to your buyers or clients
-              to make payment.
+              <span>STOP DOING PAYMENT ON DELIVERY.</span> Create a private
+              product link or a private service link and send the link to your
+              buyers or clients to make payment.
             </p>
             <p>
-              WHEN A BUYER makes payment through Easzi for any physical product
-              or service, THE SELLER SEES the money in his Sales Earnings
-              Dashboard, BUT CANNOT WITHDRAW the money UNTIL THE SELLER delivers
-              the product or service to the buyer.
+              <span>WHEN A BUYER</span> makes payment through Easzi for any
+              physical product or service, <span>THE SELLER SEES</span> the
+              money in his Sales Earnings Dashboard,{" "}
+              <span>BUT CANNOT WITHDRAW</span> the money{" "}
+              <span>UNTIL THE SELLER</span> delivers the product or service to
+              the buyer.
             </p>
             <p>
-              That way, BUYERS DON’T get scammed and SELLERS DON’T get scammed.
+              That way, <span>BUYERS DON’T </span>get scammed and{" "}
+              <span>SELLERS DON’T</span>
+              get scammed.
             </p>
             <p>
-              Also, The BUYER EARNS MONEY when he makes payment through Easzi.
+              Also, The <span>BUYER EARNS MONEY</span> when he makes payment
+              through Easzi.
             </p>
             <p>
               If the buyer does not make payment, maybe he is not a serious
-              buyer, and if the seller DOES NOT DELIVER the physical product or
-              service TO THE BUYER the buyer can GET BACK his money.
+              buyer, and if the seller <span>DOES NOT DELIVER</span> the
+              physical product or service <span>TO THE BUYER</span> the buyer
+              can <span>GET BACK</span> his money.
             </p>
           </div>
         </div>

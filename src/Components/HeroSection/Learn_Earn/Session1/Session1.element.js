@@ -11,18 +11,18 @@ export const OVERALL = styled.div`
   }
   .left-side {
     width: 50%;
-    padding: 70px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     img {
       width: 100%;
       border-radius: 100px;
+      padding: 50px;
     }
   }
 
   .right-side {
-    padding: 70px;
     width: 50%;
-    margin-left: -20px;
+    margin-top: 50px;
 
     p {
       color: #666666;
@@ -34,7 +34,6 @@ export const OVERALL = styled.div`
 
     span {
       color: #ffbb12;
-      /* font-size: ; */
       font-weight: 600;
     }
   }
@@ -44,12 +43,15 @@ export const OVERALL = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      display: center;
       width: 100%;
       margin-top: 30px;
-    
     }
     .left-side {
       width: 100%;
+      img {
+        padding: 0px;
+      }
     }
 
     .right-side {

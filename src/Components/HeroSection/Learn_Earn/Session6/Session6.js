@@ -16,44 +16,49 @@ function Session6() {
         <hr />
         <div className="text-area">
           <p>
-            Easzi Learn and Earn App IS THE FASTEST WAY to earn ₦200 Million IN
-            THE SHORTEST possible time.
+            Easzi Learn and Earn App <span>IS THE FASTEST WAY</span> to earn
+            ₦200 Million <span>IN THE SHORTEST</span> possible time.
           </p>
           <p>
-            Easzi Learn and Earn App CAN ALSO BE CALLED the “Netflix” of VARIOUS
-            educational money making TRAINING VIDEOS.
+            Easzi Learn and Earn App <span>CAN ALSO BE CALLED</span> the
+            “Netflix” of <span>VARIOUS </span>educational money making{" "}
+            <span>TRAINING VIDEOS.</span>
           </p>
           <p>
             It is not separate from Easzi. It is A CORE part of the technology
             we have built.
           </p>
           <p>
-            If you love to watch movies, NETFLIX IS AN APP or a digital platform
-            WHERE YOU pay a subscription fee AND GET ACCESS TO A LIBRARY of
-            various ENTERTAINMENT MOVIES you can watch.
+            If you love to watch movies, <span>NETFLIX IS AN APP</span> or a
+            digital platform <span>WHERE YOU</span> pay a subscription fee{" "}
+            <span>AND GET ACCESS TO A LIBRARY</span> of various{" "}
+            <span>ENTERTAINMENT MOVIES </span>
+            you can watch.
           </p>
           <p>
-            IN A SIMILAR WAY, Easzi Learn and Earn App is a digital platform
-            WHERE YOU pay a subscription fee AND CAN GET ACCESS for 2 years TO A
-            LIBRARY of various educational TRAINING VIDEOS FROM VARIOUS EXPERTS,
-            and get trained on various type of skills, how to make more money,
-            how to grow your business, how to earn in dollars etc.
+            <span>IN A SIMILAR WAY,</span> Easzi Learn and Earn App is a digital
+            platform <span>WHERE YOU</span> pay a subscription fee{" "}
+            <span>AND CAN GET ACCESS </span>
+            for 2 years <span>TO A LIBRARY</span> of various educational{" "}
+            <span>TRAINING VIDEOS FROM VARIOUS EXPERTS,</span> and get trained
+            on various type of skills, how to make more money, how to grow your
+            business, how to earn in dollars etc.
           </p>
           <p>
-            One of the purpose of the Easzi Learn & Earn App is TO EQUIP YOU
-            WITH the knowledge and skills YOU NEED to succeed.
+            One of the purpose of the Easzi Learn & Earn App is{" "}
+            <span>TO EQUIP</span> YOU WITH the knowledge and skills{" "}
+            <span>YOU NEED</span> to succeed.
           </p>
           <p>
-            We partner WITH VARIOUS EXPERTS in various fields, to make this
-            happen. You won’t find these training videos IN FULL on YouTube.
+            We partner <span>WITH VARIOUS EXPERTS</span> in various fields, to
+            make this happen. You won’t find these training videos{" "}
+            <span>IN FULL </span>
+            on YouTube.
           </p>
           <p>
-            Many experts don’t put THEIR MAIN AND FULL training videos on
-            YouTube, and you need THEIR MAIN AND FULL courses to really succeed.
-          </p>
-          <p>
-            AS NEW COURSES ARE ADDED, you can also get access to the new
-            courses.
+            Many experts don’t put <span>THEIR MAIN AND FULL</span> training
+            videos on YouTube, and you need <span>THEIR MAIN AND FULL </span>
+            courses to really succeed.
           </p>
         </div>
       </div>

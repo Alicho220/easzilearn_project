@@ -9,12 +9,10 @@ export const OVERALL = styled.div`
   .inner-div {
     display: flex;
     flex-direction: column;
-    /* width: 80%; */
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align: center;
-    /* background-color: red; */
   }
   span {
   }
@@ -23,7 +21,6 @@ export const OVERALL = styled.div`
     line-height: 52px;
     color: #008e51;
     font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
-    /* text-align: center; */
     font-weight: 800;
     margin-bottom: 3rem;
   }
@@ -35,13 +32,20 @@ export const OVERALL = styled.div`
     width: 20%;
   }
   .text-area {
-    width: 90%; /* background-color: red; */
+    width: 90%;
     p {
       color: #666666;
       text-align: left;
       font-size: 18px;
-      line-height: 30px;
-      padding: 20px;
+      line-height: 50px;
+      /* padding: 20px; */
     }
+    span {
+      color: #ffbb12;
+      font-weight: 600;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 20px;
   }
 `;
