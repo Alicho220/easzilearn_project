@@ -43,7 +43,7 @@ export const OVERALL = styled.div`
     margin-right: 50px;
 
     img {
-      width: 95%;
+      width: 100%;
       border-radius: 150px;
     }
   }
@@ -65,6 +65,7 @@ export const OVERALL = styled.div`
   }
   @media screen and (max-width: 768px) {
     width: 100%;
+    padding: 35px;
 
     .inner-div {
       display: flex;
@@ -74,17 +75,19 @@ export const OVERALL = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding: 0px;
     }
     .inner-row {
       display: flex;
       flex-direction: column;
-      /* padding: 50px; */
     }
     .left-side {
       width: 100%;
       margin-bottom: 50px;
+      padding: 0px;
+      margin-right: 0px;
       img {
-        border-radius: 90px;
+        border-radius: 80px;
       }
     }
     .right-side {
@@ -97,7 +100,7 @@ export const OVERALL = styled.div`
         color: #666666;
         font-size: 16px;
         font-family: "Raleway";
-        line-height: 28px;
+        line-height: 25px;
         margin-bottom: 20px;
       }
 

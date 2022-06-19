@@ -14,8 +14,7 @@ export const OVERALL = styled.div`
     align-content: center;
     text-align: center;
   }
-  span {
-  }
+
   h1 {
     font-size: 58px;
     line-height: 52px;
@@ -32,13 +31,12 @@ export const OVERALL = styled.div`
     width: 20%;
   }
   .text-area {
-    width: 90%;
+    /* width: 90%; */
     p {
       color: #666666;
       text-align: left;
       font-size: 18px;
       line-height: 50px;
-      /* padding: 20px; */
     }
     span {
       color: #ffbb12;
@@ -46,6 +44,16 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    padding: 20px;
+    padding: 35px;
+    .text-area {
+      width: 100%;
+    }
+    p {
+      color: #666666;
+      font-size: 16px;
+      font-family: "Raleway";
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
   }
 `;

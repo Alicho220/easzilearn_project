@@ -10,10 +10,9 @@ export const OVERALL = styled.div`
     .header-div {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 80px;
+      margin-top: 50px;
     }
     h1 {
       font-size: 58px;
@@ -69,6 +68,7 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    padding: 35px;
     .inner-div {
       display: flex;
       flex-direction: column;
@@ -77,18 +77,29 @@ export const OVERALL = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 10px;
+      padding: 0px;
     }
     .left-side {
+      padding: 0px;
       width: 100%;
       margin-bottom: 50px;
+      margin-top: 30px;
 
       img {
-        border-radius: 100px;
+        width: 100%;
+        border-radius: 80px;
       }
     }
     .right-side {
       width: 100%;
+      padding: 0px;
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-family: "Raleway";
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
     }
   }
 `;

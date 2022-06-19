@@ -13,7 +13,7 @@ import Session8 from "../HeroSection/Learn_Earn/Session8/Session8";
 function Learn_Earn() {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Session1 />
       <Session2 />
       <Session3 />

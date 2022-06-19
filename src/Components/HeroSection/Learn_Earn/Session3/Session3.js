@@ -25,7 +25,7 @@ function Session3() {
           <div className="right-side">
             <p>
               Every person who creates an account on Easzi{" "}
-              <span>BECOMES AUTOMATICALLY</span>
+              <span>BECOMES AUTOMATICALLY </span>
               an influencer and has an influencer link. Registration{" "}
               <span>IS FREE.</span>{" "}
             </p>
@@ -36,13 +36,13 @@ function Session3() {
             </p>
             <p>
               Even <span>IF THE PERSON</span> clicked on your Influencer Link
-              <span>AND DON’T CREATE</span> an account immediately,{" "}
-              <span>BUT CREATE</span>
+              <span> AND DON’T CREATE</span> an account immediately,{" "}
+              <span>BUT CREATE </span>
               an account <span>WITHIN 90 DAYS</span> (that is within 3 Months),
               it can <span>COUNT FOR YOU AS A NEW</span> Stream of Income.
             </p>
             <p>
-              You<span>DON’T HAVE TO KNOW </span>the person.
+              You<span> DON’T HAVE TO KNOW </span>the person.
             </p>
             <p>
               The <span></span>ONLY THING they have to do <span>IS CLICK</span>
@@ -52,7 +52,7 @@ function Session3() {
             </p>
             <p>
               <span>If 10,000 </span>persons click on your Influencer Link and
-              create<span>FOR FREE</span> an account on Easzi, you can have
+              create<span> FOR FREE</span> an account on Easzi, you can have
               10,000 Streams of Income on Easzi.
             </p>
             <p>
@@ -64,8 +64,8 @@ function Session3() {
             </p>
             <p>
               You can earn money <span>FOR LIFE</span> from every person,
-              <span>EVERYTIME THEY BUY OR SELL</span> products or services on
-              Easzi, <span>EVEN WHEN YOU ARE SLEEPIN</span>G.
+              <span> EVERYTIME THEY BUY OR SELL</span> products or services on
+              Easzi, <span>EVEN WHEN YOU ARE SLEEPING.</span>
             </p>
             <p>It’s so amazing.</p>
           </div>

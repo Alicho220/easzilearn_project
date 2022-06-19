@@ -14,7 +14,7 @@ export const OVERALL = styled.div`
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 100px;
+      margin-top: 50px;
     }
     h1 {
       font-size: 58px;
@@ -29,6 +29,7 @@ export const OVERALL = styled.div`
       border-top: 5px solid #fff;
       width: 100%;
       opacity: 1;
+      background-color: #fff;
       margin-top: 4rem;
       margin-bottom: 1rem;
     }
@@ -40,7 +41,7 @@ export const OVERALL = styled.div`
   }
   .left-side {
     width: 60%;
-    /* padding: 50px; */
+
     img {
       width: 100%;
       height: 75%;
@@ -51,17 +52,14 @@ export const OVERALL = styled.div`
   }
   .right-side {
     width: 50%;
-
-    /* padding: 60px; */
     margin-top: 50px;
 
     p {
       color: #fff;
       font-size: 18px;
       font-family: "Raleway";
-      line-height: 33px;
+      line-height: 30px;
       margin-bottom: 20px;
-      font-weight: 400;
     }
 
     span {
@@ -76,16 +74,18 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    padding: 35px;
     .inner-row {
       display: flex;
       flex-direction: column;
-      padding: 20px;
+      padding: 0px;
     }
 
     .left-side {
       width: 100%;
+
       img {
-        border-radius: 100px;
+        border-radius: 80px;
         width: 100%;
         height: 100%;
         padding: 10px;
@@ -93,14 +93,14 @@ export const OVERALL = styled.div`
     }
     .right-side {
       width: 100%;
+      margin-top: 30px;
 
       p {
         color: #fff;
         font-size: 16px;
         font-family: "Raleway";
-        line-height: 30px;
+        line-height: 25px;
         margin-bottom: 20px;
-        font-weight: 200;
       }
       span {
         color: #ffbb12;

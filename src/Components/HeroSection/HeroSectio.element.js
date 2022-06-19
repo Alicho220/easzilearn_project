@@ -26,8 +26,9 @@ export const HEROWRAP = styled.div`
       font-size: 30px;
       font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
       color: #fff;
+      /* padding: 0px 50px 0px 50px; */
 
-      text-align: center;
+      /* text-align: center; */
     }
     h1 {
       color: #008e51;

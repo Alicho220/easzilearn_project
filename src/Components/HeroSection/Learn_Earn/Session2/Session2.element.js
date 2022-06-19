@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  padding: 70px;
+  /* padding: 70px; */
   background-color: #081d3c;
   position: relative;
 
@@ -83,19 +83,30 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    padding: 35px;
     .row-div {
       display: flex;
       flex-direction: column;
+      padding: 0px;
     }
     .left-side {
       width: 100%;
       padding: 0px;
+      margin-bottom: 20px;
+
+      p {
+        color: #666666;
+        font-size: 16px;
+        font-family: "Raleway";
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
     }
     .right-side {
       width: 100%;
       padding: 0;
       img {
-        border-radius: 100px;
+        border-radius: 80px;
       }
     }
   }

@@ -226,7 +226,7 @@ function Session8() {
                 <span>#200 Million.</span>
               </p>
             </div>
-            <div>
+            <div className="ticked-section">
               <img src={tick} />
               <p>
                 But <span>ONLY</span> individuals who pay for the Gold Plan,
@@ -234,7 +234,7 @@ function Session8() {
                 <span>CAN EARN</span> ₦2 Million <span>BONUS EVERY MONTH</span>.
               </p>
             </div>
-            <div>
+            <div className="ticked-section">
               <img src={tick} />
               <p>
                 Only individuals <span>WHO PAY FOR</span> the Classic Plan or
@@ -242,7 +242,7 @@ function Session8() {
                 <span>CAN EARN PERCENTAGE</span> sales income
               </p>
             </div>
-            <div>
+            <div className="ticked-section">
               <img src={tick} />
               <p>
                 Also, <span>ONLY </span>individuals who pay for the Gold Plan,
@@ -252,7 +252,7 @@ function Session8() {
                 company.
               </p>
             </div>
-            <div>
+            <div className="ticked-section">
               <img src={tick} />
               <p>
                 A moratorium period of 1 year (the first year) is obligatory for

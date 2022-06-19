@@ -80,6 +80,7 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
+    padding: 35px;
     width: 100%;
     .inner-div {
       display: flex;
@@ -88,9 +89,17 @@ export const OVERALL = styled.div`
     .left-side {
       width: 100%;
       padding: 0px;
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-family: "Raleway";
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
     }
     .right-side {
       width: 100%;
+      padding: 0px;
 
       img {
         border-radius: 80px;

@@ -18,7 +18,7 @@ export const OVERALL = styled.div`
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 100px;
+      margin-top: 50px;
     }
   }
   h1 {
@@ -73,7 +73,7 @@ export const OVERALL = styled.div`
     display: flex;
 
     img {
-      width: 90%;
+      width: 100%;
       /* margin-right: 10px; */
     }
   }
@@ -81,13 +81,20 @@ export const OVERALL = styled.div`
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+    p {
+      /* font-size: 12px; */
+      /* background-color: red; */
+      margin-left: 10px;
+    }
 
     img {
-      width: 10%;
-      padding: 0px 30px 0px 0px;
+      width: 5%;
+      height: 5%;
+      /* padding: 0px 30px 0px 0px; */
     }
   }
   @media screen and (max-width: 768px) {
+    padding: 35px;
     .inner-div {
       display: flex;
       flex-direction: column;
@@ -105,7 +112,7 @@ export const OVERALL = styled.div`
         color: #fff;
         font-size: 16px;
         font-family: "Raleway";
-        line-height: 30px;
+        line-height: 25px;
         margin-bottom: 20px;
       }
       h2 {
@@ -120,8 +127,8 @@ export const OVERALL = styled.div`
       margin-bottom: 10px;
       img {
         width: 100%;
-        margin: 30px;
-        border-radius: 100px;
+        /* margin: 30px; */
+        border-radius: 80px;
       }
     }
     .numbered-session {
@@ -130,6 +137,20 @@ export const OVERALL = styled.div`
       img {
         width: 100%;
         margin-right: 10px;
+      }
+    }
+    .ticked-section {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1rem;
+      p {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+
+      img {
+        width: 5%;
+        height: 5%;
       }
     }
   }
