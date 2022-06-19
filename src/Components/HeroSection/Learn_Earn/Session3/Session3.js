@@ -10,8 +10,8 @@ function Session3() {
           <h1>
             You Can Earn
             <br /> For Life
-            <br /> Over 100,000
-            <br /> Streams
+            <br /> More Than
+            <br /> 100,000 Streams
             <br /> Of Income,
             <br /> Even
             <br /> When Sleeping

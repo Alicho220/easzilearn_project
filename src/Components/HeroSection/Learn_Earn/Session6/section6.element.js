@@ -2,7 +2,13 @@ import styled from "styled-components";
 
 export const OVERALL = styled.div`
   display: flex;
-  padding: 70px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  /* padding: 70px; */
   width: 100%;
   background-color: #e8f7f7;
 
@@ -13,13 +19,15 @@ export const OVERALL = styled.div`
     align-items: center;
     align-content: center;
     text-align: center;
+    width: 80%;
   }
 
   h1 {
     font-size: 58px;
     line-height: 52px;
     color: #008e51;
-    font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+    font-family: "Poppins,Lucida";
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 800;
     margin-bottom: 3rem;
   }
@@ -31,7 +39,6 @@ export const OVERALL = styled.div`
     width: 20%;
   }
   .text-area {
-    /* width: 90%; */
     p {
       color: #666666;
       text-align: left;
@@ -44,7 +51,9 @@ export const OVERALL = styled.div`
     }
   }
   @media screen and (max-width: 768px) {
-    padding: 35px;
+    .inner-div {
+      padding: 35px;
+    }
     .text-area {
       width: 100%;
     }

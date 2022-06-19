@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  /* padding: 70px; */
+  padding: 60px;
   background-color: #081d3c;
   position: relative;
 
@@ -24,16 +24,18 @@ export const OVERALL = styled.div`
     align-items: center;
   }
   .header-div {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: ; */
+    align-items: center;
+    margin-top: 50px;
   }
 
   h1 {
     font-size: 58px;
     color: #ffbb12;
-    font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+    font-family: "Poppins,Lucida";
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 800;
 
@@ -41,7 +43,7 @@ export const OVERALL = styled.div`
   }
   hr {
     border-top: 5px solid #fff;
-    width: 100%;
+    width: 70%;
     opacity: 1;
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -89,13 +91,16 @@ export const OVERALL = styled.div`
       flex-direction: column;
       padding: 0px;
     }
+    h1 {
+      /* font-size: 45px; */
+    }
     .left-side {
       width: 100%;
       padding: 0px;
       margin-bottom: 20px;
 
       p {
-        color: #666666;
+        color: #fff;
         font-size: 16px;
         font-family: "Raleway";
         line-height: 25px;

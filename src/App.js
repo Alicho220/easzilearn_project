@@ -7,7 +7,7 @@ import Learn_Earn from "./Components/Pages/Learn_Earn";
 function App() {
   return (
     <div className>
-      <GlobalStyle />
+      {/* <GlobalStyle /> */}
       {/* <Navbar /> */}
       <Learn_Earn />
       {/* <Footer /> */}

@@ -8,12 +8,10 @@ export const OVERALL = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center;
-    align-content: center; */
     width: 80%;
     min-height: 100vh;
     margin-top: 80px;
-    /* background-color: red; */
+
     img {
     }
   }
@@ -23,10 +21,7 @@ export const OVERALL = styled.div`
     img {
       width: 120px;
       margin-bottom: 80px;
-      /* margin-left: 128px; */
     }
-    /* justify-content: flex-start; */
-    /* text-align: start; */
   }
   .label {
     color: #fff;
@@ -38,10 +33,7 @@ export const OVERALL = styled.div`
   .information-div {
     display: flex;
     flex-direction: row;
-    /* width: 1000; */
-    /* background-color: blue; */
     justify-content: space-between;
-    /* justify-content: space-evenly; */
 
     h6 {
       color: #fff;
@@ -106,7 +98,6 @@ export const OVERALL = styled.div`
       border: none;
       outline: none;
       display: flex;
-      /* margin-right: 30px; */
     }
 
     button {
@@ -118,15 +109,45 @@ export const OVERALL = styled.div`
       border: none;
       font-family: "Raleway";
       font-weight: bold;
-      /* padding: 30px; */
     }
   }
   .reserved-div {
     display: flex;
-    justify-content: center;
+    justify-content: ceter;
     margin-top: 100px;
     font-family: "Raleway";
     font-weight: bold;
-    /* text-align: center; */
+  }
+  @media screen and (max-width: 768px) {
+    .information-div {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      justify-content: space-between;
+    }
+  }
+  .social-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .reserved-div {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 100px;
+    font-family: "Raleway";
+    font-weight: bold;
+  }
+  .logo-div {
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 120px;
+      margin-bottom: 20px;
+    }
   }
 `;

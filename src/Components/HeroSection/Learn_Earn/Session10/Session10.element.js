@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const OVERALL = styled.div`
   background-color: #081d3c;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
   .inner-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
   .header-div {
     display: flex;
@@ -20,24 +24,24 @@ export const OVERALL = styled.div`
       opacity: 1;
       margin-bottom: 4rem;
       margin-top: 3rem;
+      background-color: #fff;
     }
     h1 {
       font-size: 52px;
       line-height: 52px;
       color: #ffbb12;
       text-align: center;
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
     }
   }
   .center-div {
     display: flex;
-
-    width: 100%;
   }
   .left-side {
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 70px;
 
     p {
       font-style: "Raleway";
@@ -54,28 +58,39 @@ export const OVERALL = styled.div`
     }
   }
   .right-side {
-    display: flex;
-    flex-direction: column;
     width: 50%;
 
-    padding: 70px;
     img {
       width: 100%;
+      height: 80%;
+
       border-radius: 150px;
     }
   }
   .numbered-session {
     display: flex;
-    margin-bottom: 1rem;
+
+    h2 {
+      margin-top: 0px;
+    }
 
     img {
-      width: 70%;
+      width: 60%;
     }
   }
+
   .button-div {
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .left-btn {
+    width: 50%;
     button {
+      padding: 18px;
+      font-size: 20px;
+      width: 300px;
+      margin-left: 30px;
       background-color: #008e51;
       color: #fff;
       font-family: "Raleway";
@@ -84,21 +99,36 @@ export const OVERALL = styled.div`
       box-shadow: none;
       border-radius: 10px;
       border: none;
-      padding: 20px;
-      margin: 10px;
+      margin-right: 50px;
     }
-    margin-bottom: 100px;
+  }
+  .right-btn {
+    width: 50%;
+    button {
+      padding: 18px;
+      font-size: 20px;
+      width: 300px;
+      background-color: #008e51;
+      color: #fff;
+      font-family: "Raleway";
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: none;
+      border-radius: 10px;
+      border: none;
+    }
   }
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    padding: 25px;
     .center-div {
       display: flex;
       flex-direction: column;
     }
     .left-side {
-      /* width: 100%; */
-      padding: 30px;
+      width: 100%;
+
       p {
         font-style: "Raleway";
         font-size: 16px;
@@ -120,11 +150,12 @@ export const OVERALL = styled.div`
     }
     .right-side {
       width: 100%;
-      padding: 30px;
+      margin-bottom: 40px;
+      /* padding: 20px; */
 
       img {
+        border-radius: 80px;
         width: 100%;
-        border-radius: 100px;
       }
     }
     .numbered-session {
@@ -134,15 +165,27 @@ export const OVERALL = styled.div`
       img {
         width: 50%;
       }
+      p {
+        margin-left: 0px;
+      }
+      h2 {
+        margin-left: 0px;
+      }
     }
-  }
-  .button-div {
-    display: flex;
-    flex-direction: row;
-    button {
-      width: 80%;
-      padding: 10px;
-      font-size: 15px;
+    .button-div {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-btn {
+      width: 100%;
+      button {
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+    }
+    .right-btn {
+      width: 100%;
+      margin-top: 30px;
     }
   }
 `;

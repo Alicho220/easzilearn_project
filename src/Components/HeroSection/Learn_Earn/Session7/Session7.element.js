@@ -19,7 +19,8 @@ export const OVERALL = styled.div`
     h1 {
       font-size: 58px;
       color: #ffbb12;
-      font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
       text-align: center;
       font-weight: 800;
 

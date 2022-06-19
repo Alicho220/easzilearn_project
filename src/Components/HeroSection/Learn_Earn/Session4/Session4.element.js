@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const OVERALL = styled.div`
   background-color: #008e51;
+  padding: 70px;
   .inner-div {
     display: flex;
     flex-direction: column;
@@ -18,7 +19,8 @@ export const OVERALL = styled.div`
       font-size: 58px;
       line-height: 50px;
       color: #ffbb12;
-      font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
       text-align: center;
       font-weight: 800;
       line-height: 58px;
@@ -28,14 +30,14 @@ export const OVERALL = styled.div`
       width: 80%;
       opacity: 1;
       margin-top: 4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 4rem;
       background-color: #fff;
     }
   }
   .inner-row {
     display: flex;
     flex-direction: row;
-    padding: 70px;
+    /* padding: 70px; */
   }
   .left-side {
     width: 50%;
@@ -46,7 +48,8 @@ export const OVERALL = styled.div`
   }
   .right-side {
     width: 50%;
-    padding-left: 50px;
+    margin-left: 30px;
+    /* padding-left: 50px; */
 
     p {
       color: #fff;
@@ -65,6 +68,10 @@ export const OVERALL = styled.div`
     display: flex;
     img {
       width: 80%;
+      /* height: 80%; */
+    }
+    p {
+      margin-left: 5px;
     }
   }
   @media screen and (max-width: 768px) {
@@ -93,6 +100,7 @@ export const OVERALL = styled.div`
     .right-side {
       width: 100%;
       padding: 0px;
+      margin-left: 0px;
       p {
         color: #fff;
         font-size: 16px;

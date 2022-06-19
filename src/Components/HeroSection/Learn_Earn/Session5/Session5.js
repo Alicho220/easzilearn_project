@@ -11,8 +11,8 @@ function Session5() {
       <div className="inner-div">
         <div className="header-div">
           <h1>
-            More Ways Yo
-            <br />u Can Earn
+            More Ways You
+            <br /> Can Earn
             <br /> Money On Easzi <br />
             Without <br />
             Paying Money

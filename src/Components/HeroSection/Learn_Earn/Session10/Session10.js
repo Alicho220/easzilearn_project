@@ -60,21 +60,14 @@ function Session10() {
               </div>
               <div>
                 <h2>Click On Course Registration</h2>
-                <p>After you Login to your account.</p>
-                {/* <p>Click on Learn & Earn App.</p> */}
+                <p>Fill the form and follow the instruction.</p>
                 <p>It’s simple.</p>
                 <p>
-                  When you pay for this course,
-                  <span> YOU WILL RECEIVE</span> a Course payment <br />
-                  receipt and
-                  <span>
-                    {" "}
-                    A PRIVATE PLACEMENT MOU SHARES
-                    <br /> AGREETMENT/CONTRACT
-                  </span>{" "}
-                  showing that you are <span>EITHER</span> a shareholder or a
-                  <br />
-                  Shareholder and Director of our company.
+                  When you pay for The Gold, Classic or VIP Plan of Easzi Learn
+                  and Earn
+                  <br /> App, <span>YOU WILL RECEIVE</span> a Course Plan
+                  payment receipt and <span>A PROFIT</span>
+                  <br /> <span>SHARING AGREETMENT/CONTRACT.</span>
                 </p>
                 <p>It’s so amazing. Act now.</p>
               </div>
@@ -85,8 +78,12 @@ function Session10() {
           </div>
         </div>
         <div className="button-div">
-          <button>Create Account For Free</button>
-          <button>Login To Your Account</button>
+          <div className="left-btn">
+            <button>Create Account For Free</button>
+          </div>
+          <div className="right-btn">
+            <button>Login To Your Account</button>
+          </div>
         </div>
       </div>
     </OVERALL>

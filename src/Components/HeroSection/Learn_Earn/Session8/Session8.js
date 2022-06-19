@@ -10,7 +10,7 @@ import seven from "../../../../assets/Easzi-number-7-green.png";
 import eight from "../../../../assets/Easzi-number-8-green.png";
 import nine from "../../../../assets/Easzi-number-9-green.png";
 import ten from "../../../../assets/Easzi-number-10-green.png";
-import tick from "../../../../assets/easzi_tick_bullet_dark_green.png";
+import tick from "../../../../assets/easzi_check_mark_blue_background.png";
 import having from "../../../../assets/You-Can-Earn-N2-Million-Bonus-Monthly-scaled.jpg";
 
 function Session8() {
@@ -19,9 +19,9 @@ function Session8() {
       <div className="inner-div">
         <div className="header-div">
           <h1>
-            11 Financial
+            7 Amazing
             <br />
-            Benefits
+            Financial Benefits
             <br />
             Of Easzi Learn <br />& Earn App
           </h1>
@@ -127,7 +127,10 @@ function Session8() {
                 <img src={six} className="three" />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Percentage Sales Income 1:</h2>
+                <h2>
+                  Easzi Learn & Earn <span className="green-span"></span>
+                  Percentage Sales Income 1:
+                </h2>
                 <p>
                   If any person who register through your Influencer Link, pay
                   for <span>ANY PLAN</span> of Easzi Learn and Earn App,{" "}
@@ -141,7 +144,10 @@ function Session8() {
                 <img src={seven} className="three" />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Percentage Sales Income 2:</h2>
+                <h2>
+                  Easzi Learn & Earn <span className="green-span"></span>
+                  Percentage Sales Income 2:
+                </h2>
                 <p>
                   If any person who register through your Influencer link, also
                   register a person who pay for <span>ANY PLAN</span> of Easzi
@@ -151,7 +157,7 @@ function Session8() {
                 </p>
               </div>
             </div>
-            <div className="numbered-session">
+            {/* <div className="numbered-session">
               <div>
                 <img src={eight} className="three" />
               </div>
@@ -165,8 +171,8 @@ function Session8() {
                   <span> EVERY YEAR FOR LIFE.</span>
                 </p>
               </div>
-            </div>
-            <div className="numbered-session">
+            </div> */}
+            {/* <div className="numbered-session">
               <div>
                 <img src={nine} className="three" />
               </div>
@@ -180,8 +186,8 @@ function Session8() {
                   company, <span>EVERY YEAR FOR LIFE.</span>
                 </p>
               </div>
-            </div>
-            <div className="numbered-session">
+            </div> */}
+            {/* <div className="numbered-session">
               <div>
                 <img src={ten} className="three" />
               </div>
@@ -194,8 +200,8 @@ function Session8() {
                   our company, <span>EVERY YEAR FOR LIFE.</span>
                 </p>
               </div>
-            </div>
-            <div className="numbered-session">
+            </div> */}
+            {/* <div className="numbered-session">
               <div>
                 <img src={three} className="three" />
               </div>
@@ -214,9 +220,9 @@ function Session8() {
                   LIFE.
                 </p>
               </div>
-            </div>
+            </div> */}
             <p>
-              Please <span>NOTE THE FOLLOWING:</span>
+              Please <span className="green-span">NOTE THE FOLLOWING:</span>
             </p>
             <div className="ticked-section">
               <img src={tick} />
@@ -255,8 +261,9 @@ function Session8() {
             <div className="ticked-section">
               <img src={tick} />
               <p>
-                A moratorium period of 1 year (the first year) is obligatory for
-                all shareholders.
+                ONLY individuals <span>WHO PAY FOR </span>the Classic Plan or
+                VIP Plan of Easzi Learn and Earn App CAN EARN PERCENTAGE sales
+                income
               </p>
             </div>
 

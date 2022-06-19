@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
+  /* padding: 70px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .inner-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
 
     .header-div {
       display: flex;
@@ -13,20 +19,22 @@ export const OVERALL = styled.div`
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 100px;
+      margin-top: 50px;
     }
     h1 {
       font-size: 58px;
       color: #008e51;
-      font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
+
       text-align: center;
       font-weight: 900;
 
-      line-height: 48px;
+      line-height: 58px;
     }
     hr {
       border-top: 5px solid #081d3c;
-      width: 80%;
+      width: 60%;
       opacity: 1;
       margin-top: 4rem;
       margin-bottom: 4rem;
@@ -35,12 +43,12 @@ export const OVERALL = styled.div`
   .inner-row {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    /* padding: 10px; */
   }
   .left-side {
     width: 50%;
-    padding: 50px;
-    margin-right: 50px;
+    /* padding: 10px; */
+    margin-right: 40px;
 
     img {
       width: 100%;
@@ -49,6 +57,7 @@ export const OVERALL = styled.div`
   }
   .right-side {
     width: 50%;
+    margin-top: 10px;
 
     p {
       color: #666666;
@@ -65,7 +74,7 @@ export const OVERALL = styled.div`
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-    padding: 35px;
+    /* padding: 35px; */
 
     .inner-div {
       display: flex;

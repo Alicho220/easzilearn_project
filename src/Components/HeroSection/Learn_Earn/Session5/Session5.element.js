@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  padding: 60px;
+  /* padding: 60px; */
   background-color: #081d3c;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .inner-div {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,13 +22,14 @@ export const OVERALL = styled.div`
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 100px;
+      margin-top: 50px;
     }
   }
   h1 {
     font-size: 58px;
     color: #ffbb12;
-    font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+    font-family: "Poppins,Lucida";
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 800;
 
@@ -34,7 +40,7 @@ export const OVERALL = styled.div`
     width: 50%;
     opacity: 1;
     background-color: #fff;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
   }
   p {
@@ -54,10 +60,9 @@ export const OVERALL = styled.div`
   }
   .left-side {
     width: 50%;
-    padding: 20px;
+    margin-right: 50px;
   }
   .right-side {
-    padding: 20px;
     width: 50%;
 
     img {
@@ -71,16 +76,19 @@ export const OVERALL = styled.div`
   }
   .numbered-session {
     display: flex;
-    /* justify-content: space-evenly; */
 
     img {
-      width: 90%;
-      margin-right: 14px;
-      padding: 2px;
+      width: 100%;
+      margin-top: 20px;
+    }
+    p {
+      margin-left: 10px;
+    }
+    h2 {
+      margin-left: 10px;
     }
   }
   @media screen and (max-width: 768px) {
-    padding: 35px;
     width: 100%;
     .inner-div {
       display: flex;
@@ -89,6 +97,7 @@ export const OVERALL = styled.div`
     .left-side {
       width: 100%;
       padding: 0px;
+      margin-right: 0px;
       p {
         color: #fff;
         font-size: 16px;
@@ -100,6 +109,7 @@ export const OVERALL = styled.div`
     .right-side {
       width: 100%;
       padding: 0px;
+      margin-right: 0px;
 
       img {
         border-radius: 80px;
@@ -132,6 +142,12 @@ export const OVERALL = styled.div`
         width: 80%;
         margin-right: 30px;
         padding: 2px;
+      }
+      p {
+        margin-left: 10px;
+      }
+      h2 {
+        margin-left: 10px;
       }
     }
   }

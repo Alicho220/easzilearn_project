@@ -14,7 +14,7 @@ function Footer() {
           <img src={logo} />
         </div>
         <div className="information-div">
-          <div>
+          <div className="get-in-touch">
             <h6>Get In Touch</h6>
             <ul>
               <li>About Us</li>
@@ -22,7 +22,7 @@ function Footer() {
               <li>Privacy Policy</li>
             </ul>
           </div>
-          <div>
+          <div className="latest-div">
             <h6>Latest</h6>
             <ul>
               <li>Get Started</li>

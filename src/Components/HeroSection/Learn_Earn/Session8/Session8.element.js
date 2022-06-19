@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const OVERALL = styled.div`
-  padding: 70px;
-  background-color: #081d3c;
+  background-color: #e8f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
 
   .inner-div {
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: center;
 
     align-items: center;
+    width: 90%;
 
     .header-div {
       display: flex;
@@ -23,31 +27,34 @@ export const OVERALL = styled.div`
   }
   h1 {
     font-size: 58px;
-    color: #ffbb12;
-    font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+    color: #008e51;
+    font-family: "Poppins,Lucida";
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 800;
 
     line-height: 58px;
   }
   hr {
-    border-top: 5px solid #fff;
-    width: 100%;
+    border-top: 5px solid #081d3c;
+    width: 90%;
     opacity: 1;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     background-color: #fff;
   }
   p {
-    color: #fff;
+    color: #666666;
     font-size: 18px;
     font-family: "Raleway";
     line-height: 30px;
     margin-bottom: 20px;
   }
   h2 {
-    color: #ffbb12;
-    font-weight: 600;
+    color: #081d3c;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   span {
@@ -58,7 +65,7 @@ export const OVERALL = styled.div`
     width: 50%;
   }
   .right-side {
-    padding: 20px;
+    margin-left: 50px;
     width: 50%;
     img {
       width: 100%;
@@ -71,10 +78,19 @@ export const OVERALL = styled.div`
   }
   .numbered-session {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    p {
+      margin-left: 10px;
+    }
+    h2 {
+      margin-left: 10px;
+    }
 
     img {
-      width: 100%;
-      /* margin-right: 10px; */
+      /* width: 100%; */
+      /* height: 95%; */
+      /* padding: 10px; */
     }
   }
   .ticked-section {
@@ -90,8 +106,12 @@ export const OVERALL = styled.div`
     img {
       width: 5%;
       height: 5%;
-      /* padding: 0px 30px 0px 0px; */
+      color: #081d3c;
+      margin-top: 20px;
     }
+  }
+  .green-span {
+    color: #008e51;
   }
   @media screen and (max-width: 768px) {
     padding: 35px;
@@ -109,7 +129,7 @@ export const OVERALL = styled.div`
       padding: 0px;
       margin-bottom: 10px;
       p {
-        color: #fff;
+        color: #666666;
         font-size: 16px;
         font-family: "Raleway";
         line-height: 25px;
@@ -125,9 +145,13 @@ export const OVERALL = styled.div`
       width: 100%;
       padding: 0px;
       margin-bottom: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      /* background-color: red; */
+
       img {
         width: 100%;
-        /* margin: 30px; */
+
         border-radius: 80px;
       }
     }
@@ -135,8 +159,13 @@ export const OVERALL = styled.div`
       display: flex;
 
       img {
-        width: 100%;
-        margin-right: 10px;
+        margin-right: 1px;
+        margin-top: 15px;
+        width: 30px;
+      }
+      p {
+        font-size: 16px;
+        margin-left: 10px;
       }
     }
     .ticked-section {
@@ -149,8 +178,9 @@ export const OVERALL = styled.div`
       }
 
       img {
-        width: 5%;
-        height: 5%;
+        width: 8%;
+        height: 8%;
+        margin-top: 20px;
       }
     }
   }

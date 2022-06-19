@@ -1,6 +1,6 @@
 import React from "react";
 import { OVERALL } from "./Session4.element";
-import learn from "../../../../assets/Not-Having-Money-Should-Not-Be-An-Excuse-To-Not-Succeed1.jpg";
+import learn from "../../../../assets/Pay-For-Something-Through-Easzi-And-Earn-Money.jpg";
 import one from "../../../../assets/Easzi-number-1-blue.png";
 import two from "../../../../assets/Easzi-number-2-blue.png";
 import three from "../../../../assets/Easzi-number-3-blue.png";

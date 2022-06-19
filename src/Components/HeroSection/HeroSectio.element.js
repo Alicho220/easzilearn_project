@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const HEROWRAP = styled.div`
   background-color: #e8f7f7;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  /* min-height: 100%; */
 
   .inner-div {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
   }
@@ -17,26 +18,23 @@ export const HEROWRAP = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 50%;
     text-align: center;
 
     h2 {
       background-color: #000;
-      font-size: 30px;
-      font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+      font-size: 35px;
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
       color: #fff;
-      /* padding: 0px 50px 0px 50px; */
-
-      /* text-align: center; */
     }
     h1 {
       color: #008e51;
       font-size: 52px;
-      font-family: "Poppins, Helvetica, Arial, Lucida, sans-serif";
+      font-family: "Poppins,Lucida";
+      font-family: Helvetica, Arial, sans-serif;
       line-height: 45px;
       font-weight: bolder;
-      margin-bottom: 30px;
     }
     hr {
       border: 3px solid #ffbb12;
@@ -44,8 +42,13 @@ export const HEROWRAP = styled.div`
       margin-bottom: 1rem;
       margin-top: 2rem;
       background: #ffbb12;
-      width: 100%;
+      width: 80%;
       text-align: center;
+    }
+    span {
+      color: #ffbb12;
+      font-family: "DM Serif Display";
+      font-weight: 400;
     }
   }
 
@@ -60,13 +63,13 @@ export const HEROWRAP = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* min-height: 10%; */
     width: 100%;
 
     .inner-div {
       display: flex;
       flex-direction: column;
-      height: 100vh;
+      min-height: 100vh;
     }
     .left-side {
       width: 100%;
@@ -86,10 +89,11 @@ export const HEROWRAP = styled.div`
     }
 
     .right-side {
+      margin-top: 0px;
       width: 100%;
-      background-color: red;
+      /* background-color: red; */
       img {
-        display: none;
+        /* display: none; */
       }
     }
   }
