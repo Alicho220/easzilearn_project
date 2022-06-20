@@ -13,7 +13,7 @@ export const OVERALL = styled.div`
       flex-direction: column;
       align-items: center;
       align-content: center;
-      margin-top: 50px;
+      /* margin-top: 50px; */
     }
     h1 {
       font-size: 58px;
@@ -67,11 +67,16 @@ export const OVERALL = styled.div`
   .numbered-session {
     display: flex;
     img {
-      width: 80%;
-      /* height: 80%; */
+      width: 50%;
+      margin-top: 20px;
     }
     p {
-      margin-left: 5px;
+      margin-left: -15px;
+      color: #fff;
+      font-size: 18px;
+      font-family: "Raleway";
+      line-height: 25px;
+      margin-bottom: 20px;
     }
   }
   @media screen and (max-width: 768px) {

@@ -28,7 +28,6 @@ export const OVERALL = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
   }
 
   h1 {
@@ -45,7 +44,7 @@ export const OVERALL = styled.div`
     border-top: 5px solid #fff;
     width: 70%;
     opacity: 1;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     background-color: #fff;
   }

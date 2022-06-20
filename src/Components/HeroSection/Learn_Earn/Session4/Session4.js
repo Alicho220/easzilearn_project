@@ -31,8 +31,9 @@ function Session4() {
               <div>
                 <p>
                   You <span>WILL EARN MONEY</span> when you <span>BUY</span> a
-                  <span>DIGITAL</span> product, a <span>DIGITAL</span> product,
-                  or <span>A SERVICE</span> through Easzi.
+                  <span>DIGITAL</span>
+                  <br /> product, a <span>DIGITAL</span> product, or{" "}
+                  <span>A SERVICE</span> through Easzi.
                 </p>
               </div>
             </div>
@@ -43,7 +44,8 @@ function Session4() {
               <div>
                 <p>
                   Easzi <span>IS ALSO AN ESCROW </span>App{" "}
-                  <span>AND PROTECTS</span> buyers and sellers <span>FROM</span>{" "}
+                  <span>AND PROTECTS</span> buyers and sellers
+                  <br /> <span>FROM</span>
                   being scammed.
                 </p>
               </div>
@@ -55,7 +57,9 @@ function Session4() {
               <div>
                 <p>
                   You <span>CANNOT GET SCAMMED</span> if you pay for{" "}
-                  <span>ANY PHYSICAL PRODUCT </span>or <span>SERVICE</span>
+                  <span>ANY PHYSICAL PRODUCT </span>
+                  <br />
+                  or <span>SERVICE</span>
                   through Easzi Escrow System.
                 </p>
               </div>

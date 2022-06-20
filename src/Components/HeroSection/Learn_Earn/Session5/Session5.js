@@ -4,10 +4,12 @@ import one from "../../../../assets/Easzi-number-1-green.png";
 import two from "../../../../assets/Easzi-number-2-green.png";
 import three from "../../../../assets/Easzi-number-3-green.png";
 import having from "../../../../assets/Not-Having-Money-Should-Not-Be-An-Excuse-To-Not-Succeed1.jpg";
+// import CurvedImg from "../../../../assets/download/downlaod2.svg";
 
 function Session5() {
   return (
     <OVERALL>
+      {/* <img className="img" src={CurvedImg} /> */}
       <div className="inner-div">
         <div className="header-div">
           <h1>

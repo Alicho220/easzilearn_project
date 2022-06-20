@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const OVERALL = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #0d1623;
   .inner-div {
     display: flex;
@@ -126,18 +127,16 @@ export const OVERALL = styled.div`
 
       justify-content: space-between;
     }
-  }
-  .social-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 30px;
+    .social-div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 100px;
+    }
   }
   .reserved-div {
     display: flex;
-
     justify-content: center;
-
     margin-top: 100px;
     font-family: "Raleway";
     font-weight: bold;

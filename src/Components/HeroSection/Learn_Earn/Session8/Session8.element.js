@@ -32,6 +32,7 @@ export const OVERALL = styled.div`
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 800;
+    text-shadow: 2px 2px #fff;
 
     line-height: 58px;
   }
@@ -112,6 +113,7 @@ export const OVERALL = styled.div`
   }
   .green-span {
     color: #008e51;
+    font-weight: 800;
   }
   @media screen and (max-width: 768px) {
     padding: 35px;

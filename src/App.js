@@ -8,9 +8,9 @@ function App() {
   return (
     <div className>
       {/* <GlobalStyle /> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <Learn_Earn />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -15,7 +15,7 @@ import Session9 from "../HeroSection/Learn_Earn/Session9/Session9";
 function Learn_Earn() {
   return (
     <div>
-      {/* <HeroSection />
+      <HeroSection />
       <Session1 />
       <Session2 />
       <Session3 />
@@ -25,9 +25,8 @@ function Learn_Earn() {
       <Session7 />
       <Session8 />
       <Session9 />
-      
-      <Session10 /> */}
       <CardSession />
+      <Session10 />
     </div>
   );
 }

@@ -6,6 +6,7 @@ export const OVERALL = styled.div`
     flex-direction: row;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 80px;
   }
   .left-side {
     width: 50%;

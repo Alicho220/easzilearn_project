@@ -2,11 +2,16 @@ import styled from "styled-components";
 
 export const OVERALL = styled.div`
   background-color: #008e51;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   .inner-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
 
     .header-div {
       display: flex;
@@ -14,7 +19,7 @@ export const OVERALL = styled.div`
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 50px;
+      /* margin-top: 50px; */
     }
     h1 {
       font-size: 58px;
@@ -31,29 +36,29 @@ export const OVERALL = styled.div`
       width: 100%;
       opacity: 1;
       background-color: #fff;
-      margin-top: 4rem;
-      margin-bottom: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
   .inner-row {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    /* padding: 20px; */
   }
   .left-side {
-    width: 60%;
+    width: 50%;
 
     img {
       width: 100%;
-      height: 75%;
-      padding: 50px;
+      height: 70%;
+      /* padding: 50px; */
 
-      border-radius: 150px;
+      border-radius: 100px;
     }
   }
   .right-side {
     width: 50%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 
     p {
       color: #fff;
@@ -61,6 +66,7 @@ export const OVERALL = styled.div`
       font-family: "Raleway";
       line-height: 30px;
       margin-bottom: 20px;
+      margin-left: 50px;
     }
 
     span {

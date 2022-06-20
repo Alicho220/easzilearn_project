@@ -26,28 +26,27 @@ export const OVERALL = styled.div`
       color: #008e51;
       font-family: "Poppins,Lucida";
       font-family: Helvetica, Arial, sans-serif;
-
       text-align: center;
       font-weight: 900;
-
       line-height: 58px;
+      text-shadow: 2px 2px #fff;
     }
     hr {
       border-top: 5px solid #081d3c;
       width: 60%;
       opacity: 1;
-      margin-top: 4rem;
+      margin-top: 2rem;
       margin-bottom: 4rem;
     }
   }
   .inner-row {
     display: flex;
     flex-direction: row;
-    /* padding: 10px; */
+    margin-bottom: 50px;
   }
   .left-side {
     width: 50%;
-    /* padding: 10px; */
+
     margin-right: 40px;
 
     img {
@@ -57,7 +56,6 @@ export const OVERALL = styled.div`
   }
   .right-side {
     width: 50%;
-    margin-top: 10px;
 
     p {
       color: #666666;
@@ -74,7 +72,7 @@ export const OVERALL = styled.div`
   }
   @media screen and (max-width: 768px) {
     width: 100%;
-    /* padding: 35px; */
+  
 
     .inner-div {
       display: flex;

@@ -20,8 +20,6 @@ export const OVERALL = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    padding: 0 1% 5rem;
-
     .logo-header {
       display: flex;
       justify-content: center;

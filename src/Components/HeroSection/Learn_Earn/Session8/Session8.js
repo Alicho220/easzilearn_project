@@ -34,7 +34,10 @@ function Session8() {
                 <img src={one} />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Fixed Sales Income 1:</h2>
+                <h2>
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Direct Sales </span> Income 1:
+                </h2>
                 <p>
                   Even if <span>YOU DID NOT PAY MONEY, </span>if any person, who
                   register through your Influencer Link, pay for the Gold,
@@ -43,10 +46,9 @@ function Session8() {
                   that week.
                 </p>
                 <p>
-                  This means, you will earn{" "}
-                  <span>₦100 MILLION IN ONE WEEK,</span> if 1,000 persons
-                  register in one week, <span>EVEN WITHOUT</span> you paying
-                  money.
+                  You will earn <span>₦100 MILLION IN ONE WEEK,</span> if 1,000
+                  persons register in one week, <span>EVEN WITHOUT</span> you
+                  paying money.
                 </p>
               </div>
             </div>
@@ -55,17 +57,22 @@ function Session8() {
                 <img src={two} />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Fixed Sales Income 2:</h2>
+                <span className="green-span"></span>
+                <h2>
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Direct Sales </span> Income 2:
+                </h2>
                 <p>
-                  If any person, who register through your Influencer Link, pay
-                  for the Basic Plan of Easzi Learn and Earn Course Plan,{" "}
-                  <span>YOU WILL EARN</span> a fixed sales income of ₦10,000
-                  that week.
+                  Even if <span>YOU DID NOT PAY MONEY,</span> if any person,{" "}
+                  <span>WHO REGISTERS</span> through your Influencer Link, pays
+                  for the Basic Plan of Easzi Learn and Earn App,{" "}
+                  <span> YOU WILL EARN </span>
+                  ₦10,000 that week.
                 </p>
                 <p>
-                  This means, you will earn{" "}
-                  <span>₦10 MILLION IN ONE WEEK,</span> if 1,000 persons do that
-                  in one week, <span>EVEN WITHOUT</span> you paying money.
+                  You will earn <span>₦10 MILLION IN ONE WEEK,</span> if 1,000
+                  persons do that in one week, <span>EVEN WITHOUT </span>you
+                  paying money.
                 </p>
               </div>
             </div>
@@ -74,19 +81,21 @@ function Session8() {
                 <img src={three} className="three" />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Fixed Sales Income 3:</h2>
+                <h2>
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Indirect Sales </span>
+                  Income 1:
+                </h2>
                 <p>
-                  If any person who register through your Influencer link,
-                  register a person who pay for The Gold, Classic or VIP Plan of
-                  Easzi Learn and Earn App, <span>YOU WILL EARN</span> earn a
-                  fixed sales income of ₦50,000, that week,{" "}
-                  <span>EVEN WITHOUT</span> you doing anything.
+                  If <span>ANY PERSON </span>who registered through your
+                  Influencer link, <span>REGISTERS A</span> person who pays for
+                  The Gold, Classic or VIP Plan of Easzi Learn and Earn App,
+                  <span>YOU WILL EARN</span> ₦50,000, that week.
                 </p>
                 <p>
-                  This means, you will earn{" "}
-                  <span>₦50 MILLION IN ONE WEEK,</span> if 1,000 persons
-                  registers in one week, <span>EVEN WITHOUT</span>
-                  you doing anything.
+                  You will earn <span>₦50 MILLION IN ONE WEEK,</span> if 1,000
+                  persons registers in one week, <span>EVEN WITHOUT</span> you
+                  doing anything.
                 </p>
               </div>
             </div>
@@ -95,17 +104,21 @@ function Session8() {
                 <img src={four} className="three" />
               </div>
               <div>
-                <h2>Easzi Learn & Earn Fixed Sales Income 4:</h2>
+                <h2>
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Indirect Sales </span>
+                  Income 2:
+                </h2>
                 <p>
-                  If any person who register with your Influencer link, register
-                  a person who pay for the Basic Plan of Easzi Learn and Earn
-                  App, you will earn a fixed sales income of ₦5,000, that week,
-                  <span>EVEN WITHOUT</span> you doing anything.
+                  If any person <span>WHO REGISTERED THROUGH</span> your
+                  Influencer link, <span>REGISTERS A </span>person who pay for
+                  the Basic Plan of Easzi Learn and Earn App,{" "}
+                  <span>YOU WILL EARN</span> ₦5,000, that week.
                 </p>
                 <p>
-                  You will earn <span>₦5 MILLION IN ONE WEEK,</span> if only
-                  1,000 persons do that in one week, <span>EVEN WITHOUT</span>
-                  you doing anything.
+                  You will earn <span>₦5 MILLION IN ONE WEEK, </span>if only
+                  1,000 register in one week, <span>EVEN WITHOUT</span> you
+                  doing anything.
                 </p>
               </div>
             </div>
@@ -114,11 +127,19 @@ function Session8() {
                 <img src={five} className="three" />
               </div>
               <div>
-                <h2>Easzi Learn & Earn ₦2 Million Bonus Every Month</h2>
+                <h2>
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">₦2 Million</span> Bonus Every
+                  Month
+                </h2>
                 <p>
-                  If you make a direct sale of 2 VIP Plan or 120 Gold Plan or 20
-                  Classic Plan every month, <span>YOU WILL EARN</span> a Bonus
-                  of <span>₦2 MILLION EVERY MONTH.</span>
+                  Every month, <span>FROM ALL THE PERSONS </span>that registered
+                  through your Influencer Link that month,{" "}
+                  <span>IF 2 PERSONS</span> paid for a VIP Plan{" "}
+                  <span>OR A MAXIMUM </span>of 20 persons paid for a Classic
+                  Plan <span>OR BETWEEN </span> 60 to 120 persons paid for a
+                  Gold Plan, <span>YOU WILL EARN</span> a Bonus of{" "}
+                  <span>₦2 MILLION EVERY MONTH.</span>
                 </p>
               </div>
             </div>
@@ -128,14 +149,16 @@ function Session8() {
               </div>
               <div>
                 <h2>
-                  Easzi Learn & Earn <span className="green-span"></span>
-                  Percentage Sales Income 1:
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Percentage Sales </span>
+                  Income 1:
                 </h2>
                 <p>
-                  If any person who register through your Influencer Link, pay
-                  for <span>ANY PLAN</span> of Easzi Learn and Earn App,{" "}
-                  <span>YOU WILL EARN A PERCENTAGE</span> sales income of 2.5%{" "}
-                  <span>OF THE AMOUNT</span> the person pays.
+                  If any person <span>WHO REGISTERS THROUGH span</span>your
+                  Influencer Link, pays for <span>ANY PLAN</span> of Easzi Learn
+                  and Earn App, <span>YOU EARN</span> 2.5% of{" "}
+                  <span>THE AMOUNT</span>
+                  paid.
                 </p>
               </div>
             </div>
@@ -145,82 +168,19 @@ function Session8() {
               </div>
               <div>
                 <h2>
-                  Easzi Learn & Earn <span className="green-span"></span>
-                  Percentage Sales Income 2:
+                  Easzi Learn & Earn{" "}
+                  <span className="green-span">Percentage Sales </span>
+                  Income 2:
                 </h2>
                 <p>
-                  If any person who register through your Influencer link, also
-                  register a person who pay for <span>ANY PLAN</span> of Easzi
-                  Learn and Earn App, <span>YOU WILL EARN </span>a percentage
-                  sales income of 1.5% <span>OF THE AMOUNT</span> the person
-                  pays.
+                  If any person <span>WHO REGISTERS THROUGH </span>your
+                  Influencer link, <span>REGISTERS </span>a person who pays for
+                  <span>ANY PLAN</span> of Easzi Learn and Earn App,{" "}
+                  <span></span>YOU EARN 1.5% of <span>THE AMOUNT</span> paid.
                 </p>
               </div>
             </div>
-            {/* <div className="numbered-session">
-              <div>
-                <img src={eight} className="three" />
-              </div>
-              <div>
-                <h2>Gold Plan Bonus Income And Free Shares Benefit</h2>
-                <p>
-                  If you pay for <span>THE GOLD PLAN</span> of Easzi Learn and
-                  Earn App, <span>YOU CAN BECOME FOR FREE</span> a shareholder
-                  in our company <span></span>
-                  AND SHARE IN 10% of the profit of our company{" "}
-                  <span> EVERY YEAR FOR LIFE.</span>
-                </p>
-              </div>
-            </div> */}
-            {/* <div className="numbered-session">
-              <div>
-                <img src={nine} className="three" />
-              </div>
-              <div>
-                <h2>Classic Plan Bonus Income And Free Shares Benefit</h2>
-                <p>
-                  Classic Plan Bonus Income And Free Shares Benefit If you pay
-                  for <span>THE CLASSIC PLAN </span>of Easzi Learn and Earn App,{" "}
-                  <span>YOU CAN BECOME FOR FREE</span> a shareholder in our
-                  company <span>AND SHARE IN</span> 20% of the profit of our
-                  company, <span>EVERY YEAR FOR LIFE.</span>
-                </p>
-              </div>
-            </div> */}
-            {/* <div className="numbered-session">
-              <div>
-                <img src={ten} className="three" />
-              </div>
-              <div>
-                <h2>VIP Plan Bonus Income And Free Shares Benefit</h2>
-                <p>
-                  If you pay for <span> THE VIP PLAN </span>of Easzi Learn and
-                  Earn App, <span>YOU CAN BECOME FOR FREE </span>a shareholder
-                  in our company <span>AND SHARE IN </span>30% of the profit of
-                  our company, <span>EVERY YEAR FOR LIFE.</span>
-                </p>
-              </div>
-            </div> */}
-            {/* <div className="numbered-session">
-              <div>
-                <img src={three} className="three" />
-              </div>
-              <div>
-                <h2>VIP Plan Bonus Income 2</h2>
-                <p>
-                  If you pay for <span>THE VIP PLAN</span> of Easzi Learn and
-                  Earn App,{" "}
-                  <span>YOU CAN ALSO BECOME FOR FREE A DIRECTOR </span>of our
-                  Technology company and earn Company Director Income,{" "}
-                  <span>BUT </span>limited slots are open.
-                </p>
-                <p>
-                  If you become A SHAREHOLDER AND DIRECTOR of our company, YOU
-                  SHARE IN 35% of the profit of our company, EVERY YEAR FOR
-                  LIFE.
-                </p>
-              </div>
-            </div> */}
+
             <p>
               Please <span className="green-span">NOTE THE FOLLOWING:</span>
             </p>

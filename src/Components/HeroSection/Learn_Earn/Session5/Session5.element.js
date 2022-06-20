@@ -15,6 +15,15 @@ export const OVERALL = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    .img {
+      top: -10px;
+      height: 100px;
+      padding: 0;
+      position: absolute;
+      border-radius: 0;
+    }
 
     .header-div {
       display: flex;
